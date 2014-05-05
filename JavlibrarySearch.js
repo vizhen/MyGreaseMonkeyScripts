@@ -24,11 +24,11 @@ function addSearch(key){
     var btsnoop = "<a href = 'http://bitsnoop.com/search/all/" + key + " ' target= '_blank'>" +"Btsnoop"  + "</a>";
     var btspread = "<a href = 'http://www.btspread.com/search/all/" + key + " ' target= '_blank'>" +"Btspread"  + "</a>";
     var addDiv = '<div id="video_download" class="item"><table><tr>'
-                 + "<td class ='header'>" + ":" + "</td>"
+                 + "<td class ='header'>" + "BT搜索:" + "</td>"
                  + "<td>"  + btdigg + "</td>"
                  + "<td>" + kitty + "</td>" 
                  + "<td>" + btsnoop + "</td>"
-                 + "<td>" + btsnoop + "</td>"
+                 + "<td>" + btspread + "</td>"
                  + "</tr></table></div>";
     //alert(addDiv);
     video_info = document.getElementById("video_info");
