@@ -2,10 +2,11 @@
 // @name        JavlibrarySearch
 // @namespace   JavlibrarySearch
 // @description Add search function for Javlibrary
-// @include     http://www.javlibrary.com/cn/?v=*
+// @include     http://www.look4lib.com/cn/?v=*
 // @version     1
 // @grant       none
 // ==/UserScript==
+//allow pasting
 
 function getMovieId(){
     x= document.getElementById("video_id");
@@ -18,7 +19,7 @@ function getMovieId(){
 }
 
 function addSearch(key){
-   //alert(key);
+ //alert(key);
   var btdb = '<a href = \'http://btdb.in/q/' + key + ' \' target= \'_blank\'>' + 'Btdb' + '</a>';
   var kitty = '<a href = \'http://www.bt2mag.com/search/' + key + ' \' target= \'_blank\'>' + 'Torrent Kitty' + '</a>';
   var btsnoop = '<a href = \'http://bitsnoop.com/search/all/' + key + ' \' target= \'_blank\'>' + 'Btsnoop' + '</a>';
